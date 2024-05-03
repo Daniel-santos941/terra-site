@@ -44,7 +44,6 @@ a {
     justify-content: center;
     border-top: 1px solid #9B6F12;
     border-bottom: 1px solid #9B6F12;
-
 }
 
 .main-header .overlap .menu {
@@ -96,7 +95,7 @@ a {
 
 .hero .intro .content-box {
     width: 50%;
-    color: #fff;
+    color: #dedede;
 }
 
 @media (max-width: 695px) {
