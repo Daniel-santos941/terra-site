@@ -232,3 +232,80 @@ a {
 .infos .infos-box .images #image .text-infos button:hover {
     background-color: #dba020;
 }
+
+/**Estilos da banner-section*/
+.banner-section {
+    background-image: url(../public/img/luzes-noite.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+.banner-section .darkening {
+    background-color: rgb(0, 0, 0, 0.340);
+    height: 100%;
+}
+
+.banner-section .closure {
+    height: 400px;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 820px) {
+    .banner-section .closure {
+        padding: 0 50px;
+    }
+}
+
+.banner-section .closure .text-box {
+    width: 50%;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .banner-section .closure .text-box {
+        width: 95%;
+        text-align: end;
+    }
+}
+
+.banner-section .closure .text-box h1 {
+    margin-bottom: 10px;
+    font-size: 40px; 
+    color: #dedede;
+}
+
+@media (max-width: 430px) {
+    .banner-section .closure .text-box h1 {
+        font-size: 30px;
+    }
+}
+
+.banner-section .closure .text-box button {
+    background-color: #9B6F12;
+    width: 95px;
+    height: 30px;
+    color: rgb(6, 6, 58);
+    border: 1px solid #9B6F12;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.banner-section .closure .text-box button:hover {
+    background-color: #dba020;
+}
+
+footer {
+    height: 100px;
+    background-color: #010104;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #9B6F12;
+}
